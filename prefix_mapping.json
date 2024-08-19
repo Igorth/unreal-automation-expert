@@ -1,0 +1,9 @@
+{
+  "StaticMesh": "SM_",
+  "Blueprint": "BP_",
+  "Material": "M_",
+  "Texture2D": "T_",
+  "SkeletalMesh": "SK_",
+  "AnimationAsset": "Anim_",
+  "PaperSprite": "Spr_"
+}

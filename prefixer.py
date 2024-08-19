@@ -1,20 +1,16 @@
 import unreal
-
+import json
 
 # Instances of Unreal Classes
 editor_util = unreal.EditorUtilityLibrary()
 system_lib = unreal.SystemLibrary()
 
 # Prefix mapping
-prefix_mapping = {
-    "StaticMesh": "SM_",
-    "Blueprint": "BP_",
-    "Material": "M_",
-    "Texture2D": "T_",
-    "SkeletalMesh": "SK_",
-    "AnimationAsset": "Anim_",
-    "PaperSprite": "Spr_"  # Add more prefixes as needed
-}
+prefix_mapping = {}
+
+# Load the prefix mapping from a JSON file
+with open("prefix_mapping.json", "r") as json_file:
+    prefix_mapping = json.loads(json_file.read())
 
 # Get the selected assets
 selected_assets = editor_util.get_selected_assets()
