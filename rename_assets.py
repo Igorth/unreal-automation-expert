@@ -31,5 +31,5 @@ def rename_assets(search_pattern, replace_pattern, use_case):
     unreal.log(f"Replaced {replaced} of {num_assets} assets")
 
 
-rename_assets("material", "Mat", False)
+rename_assets("material", "Mat", True)
 
