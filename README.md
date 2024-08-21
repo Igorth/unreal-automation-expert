@@ -12,3 +12,4 @@ Each object in Unreal inherits from the Object Base [unreal._ObjectBase](https:/
 - **prefixer.py**: Add a prefix in the assets
 - **clean_up.py**: Put the assets in separate folders following the asset class name
 - **duplicator.py**: Duplicate assets
+- **removed_unused.py**: Remove unused assets
