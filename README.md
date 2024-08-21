@@ -13,3 +13,5 @@ Each object in Unreal inherits from the Object Base [unreal._ObjectBase](https:/
 - **clean_up.py**: Put the assets in separate folders following the asset class name
 - **duplicator.py**: Duplicate assets
 - **removed_unused.py**: Remove unused assets
+- **world_outliner.py**: Separate actors in the world in folders
+- **delete_static_mesh.py**: Delete static mesh componentes invalid (None)
