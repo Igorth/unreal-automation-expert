@@ -24,11 +24,11 @@ To use these scripts, ensure you have the Unreal Engine Python API set up and co
 
 1. **Clone the repository:**
 ```commandline
-   git clone https://github.com/Igorth/unreal-automation-expert
+git clone https://github.com/Igorth/unreal-automation-expert
 ```
 2. Navigate to the scripts directory:
 ```commandline
-cd <repository_name>
+cd unreal-automation-expert
 ```
 
 3. Run a script:
