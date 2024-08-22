@@ -1,17 +1,40 @@
-# Unreal Automation Expert
+# Unreal Engine Asset Management Scripts
 
-### Observation
+This repository contains Python scripts designed for managing assets in Unreal Engine. The scripts cover a range of tasks including renaming, organizing, and cleaning up assets to streamline the development process.
 
+## Scripts
 
-Each object in Unreal inherits from the Object Base [unreal._ObjectBase](https://dev.epicgames.com/documentation/en-us/unreal-engine/python-api/class/_ObjectBase?highlight=_objectbase&application_version=5.0)
+- **rename_assets.py**: Renames assets based on a search pattern.
+- **power_of_two.py**: Ensures texture sizes are a power of 2 (e.g., 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, or 2048). [More info on power of two](https://dev.epicgames.com/documentation/en-us/uefn/resizing-textures-in-unreal-editor-for-fortnite).
+- **prefixer.py**: Adds a prefix to asset names.
+- **clean_up.py**: Organizes assets into separate folders based on their asset class.
+- **duplicator.py**: Duplicates assets.
+- **removed_unused.py**: Removes unused assets.
+- **world_outliner.py**: Organizes actors in the world into folders.
+- **delete_static_mesh.py**: Deletes invalid (None) static mesh components.
+- **set_linear_color_tex.py**: Configures texture parameter settings.
+- **delete_empty_folders.py**: Deletes empty folders.
+- **actor_action_util.py**: Sets a material for a static mesh actor.
 
-## Repository Structure
-- **rename_assets.py**: Rename assets based on search pattern
-- **power_of_two.py**: Texture sizes need to be a power of 2
-(for example, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, or 2048) [Power of two](https://dev.epicgames.com/documentation/en-us/uefn/resizing-textures-in-unreal-editor-for-fortnite).
-- **prefixer.py**: Add a prefix in the assets
-- **clean_up.py**: Put the assets in separate folders following the asset class name
-- **duplicator.py**: Duplicate assets
-- **removed_unused.py**: Remove unused assets
-- **world_outliner.py**: Separate actors in the world in folders
-- **delete_static_mesh.py**: Delete static mesh componentes invalid (None)
+## Usage
+
+To use these scripts, ensure you have the Unreal Engine Python API set up and configured. You can run each script individually from the command line, or integrate them into your development workflow.
+
+## Getting Started
+
+1. **Clone the repository:**
+```commandline
+   git clone https://github.com/Igorth/unreal-automation-expert
+```
+2. Navigate to the scripts directory:
+```commandline
+cd <repository_name>
+```
+
+3. Run a script:
+```commandline
+python <script_name>.py
+```
+
+## Acknowledgments
+This course was completed on [Udemy](https://www.udemy.com/course/becoming-an-unreal-automation-expert/?campaigntype=Search&portfolio=Canada&language=EN&product=Course&test=&audience=DSA&topic=&priority=Beta&matchtype=&gad_source=1&couponCode=SKILLS4SALEA), focusing on Python and Unreal Engine integration.
