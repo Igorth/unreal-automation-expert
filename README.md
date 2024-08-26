@@ -1,4 +1,6 @@
 # Unreal Engine Asset Management Scripts
+![Python](https://img.shields.io/badge/Python-3.10-blue.svg)
+![Unreal Engine](https://img.shields.io/badge/Unreal%20Engine-5.x-blue.svg)
 
 This repository contains Python scripts designed for managing assets in Unreal Engine. The scripts cover a range of tasks including renaming, organizing, and cleaning up assets to streamline the development process.
 
